@@ -1,6 +1,8 @@
 #! /bin/bash
 
-node ./index.js
+git add .
 
 
-node ./test2.js
+git commit -m $1
+
+git push origin main
